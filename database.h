@@ -3,6 +3,7 @@
 
 #include <QObject>
 #include <QSql>
+#include <QDate>
 #include <QSqlQuery>
 #include <QSqlError>
 #include <QSqlDatabase>
@@ -13,10 +14,10 @@
 #define DATABASE_HOSTNAME   "DataBase_MB"
 #define DATABASE_NAME       "DataBase.db"
 
-#define DEVICE                  "DeviceTable"
-#define DEVICE_TASK             "Task"
-#define DEVICE_SCOPE_OF_APP     "Scope of application"
-#define DEVICE_DEADLINE         "Deadline"
+#define DEVICE              "TaskTable"
+#define DEVICE_TASK         "Task"
+#define DEVICE_SCOPE_OF_APP "Scope of application"
+#define DEVICE_DEADLINE     "Deadline"
 
 
 class Database : public QObject

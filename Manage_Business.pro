@@ -26,14 +26,17 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    database.cpp
+    database.cpp \
+    addtaskform.cpp
 
 HEADERS += \
         mainwindow.h \
-    database.h
+    database.h \
+    addtaskform.h
 
 FORMS += \
-        mainwindow.ui
+        mainwindow.ui \
+    addtaskform.ui
 
 RESOURCES += \
     resources.qrc
